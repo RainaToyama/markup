@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/viewport-extra@1.0.3/dist/viewport-extra.min.js"></script>
+  <script>
+    // 最小幅だけ設定
+    new ViewportExtra(375)
+    // 最大幅を設定
+    new ViewportExtra({ minWidth: 360, maxWidth: 414 })
+  </script>
+</head>
+<!-- リセットcssの読み込み -->
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+<!-- ▼style.cssの読み込みの記述を書く -->
+<link rel="stylesheet" href="style.css">
+<body>
+  <!-- ▼ここからマークアップを行う -->
+  <div class="wrappper">
+    <div class="header">
+        <div class="header-logo">
+            <h1 class="logo">
+                <a href="." class="logo__link">
+                    <img class="logo__img" src="img/logo.jpg" alt="PON DESIGN">
+                </a>
+            </h1>
+        </div>
+        <nav class="global-nav">
+            <ul class="global-nav_list">
+                <li class="global-nav_item">
+                    <a class="global-nav_link" href="news.html">
+                        "news"
+                        ::after
+                    </a>
+                </li>
+                <li class="global-nav_item">
+                    <a class="global-nav_link" href=service.html>
+                        "service"
+                        ::after
+                    </a>
+                </li>
+                <li class="global-nav_item">
+                    <a class="global-nav_link" href=works.html>
+                        "works"
+                        ::after
+                    </a>
+                </li>
+                <li class="global-nav_item">
+                    <a class="global-nav_link" href=company.html>
+                        "company"
+                        ::after
+                    </a>
+                </li>
+                <li class="global-nav_item">
+                    <a class="global-nav_link" href=recruit.html>
+                        "recruit"
+                        ::after
+                    </a>
+                </li>
+                <li class="global-nav_item">
+                    <a class="global-nav_link" href=contact.html>
+                        "contact"
+                        ::after
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <botton type="button" class="btn-menu">
+            <span class="btn-menu_line"></span>
+        </botton>
+        </div>
+        <div class="hero" style="height: 537px;">
+         <div class="hero_inner">
+             <div class="hero_heading">
+                <div class="hero_title">
+                    WEB DESIGN SPECIALIST
+                </div>
+                <div class="hero_subtitle">
+                  "  
+                    お客様の夢を叶える"
+                  <br class="u-sp-only">
+                  "WEBサイトを作成
+                         "
+                </div>
+             </div>
+             <div class="hero_link">
+                 <a href="contact.html" clas="btn btn--tranparent">
+                     "contact"
+                     ::after
+                 </a>
+             </div>
+         </div>
+         <span class="hero_scroll">
+            "SCROLL"
+            ::after
+        </span>
+    </div>
+        <div class="contents" id="contents">
+            <section class="news l-section">
+                <div class="l-inner l-inner--sm">
+                    <div class="news_heading">
+                        <h2 class="heading-primary">
+                            "news"
+                            <span class="heading-primary__sub">お知らせ</span>
+                        </h2>
+                    </div>
+                    <div class="news_body">
+                        <div class="news-list">
+                            <ul class="news-list_list">
+                                <li class="news-list_item">
+                                    <div class="news-list_heading">
+                                        <time datetime="2020-02-01" class="news-list__date">2030.02.01</time>
+                                        <div class="news-list_label">
+                                            <span class="label-category">お知らせ</span>
+                                        </div>
+                                    </div>
+                                    <div class="news-list_body">
+                                        <a href="news-article.html" class="news-list_link">Webデザインニュースサイト「ウェブマガジン」に取材いただきました</a>
+                                    </div>
+                                </li>
+                                <li class="news-list_item">
+                                    <div class="news-list_heading">
+                                        <time datetime="2020-02-01" class="news-list_date">2030.01.25</time>
+                                        <div class="news-list_label">
+                                            <span class="label-category">製作実績</span>
+                                        </div>
+                                    </div>
+                                    <div class="news-list_body">
+                                        <a href="#" class="news-list_link">Smoothiesta様のサイトえお作成いたしました</a>
+                                    </div>
+                                </li>
+                                <li class="news-list_item">
+                                    <div class="news-list_heading">
+                                        <time datetime="2020-02-01" class="news-list_date">2030.01.20</time>
+                                        <div class="news-list_label">
+                                            <span class="label-category">採用</span>
+                                        </div>
+                                    </div>
+                                <div class="new-list__body">
+                                    <a href="#" class="news-list__link">Webデザイナーを1名募集中です！</a>
+                                 </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section class="service i-section">
+             <div class="l-inner">
+                 <div class="service__heading">
+                     <h2 class="heading-primary">
+                         "service"
+                         <span class="heading-primary__sub">事業内容</span>
+                     </h2>
+                 </div>
+                 <div class="service__body">
+                     <div class="card-wrapper card-wrapper--col13">
+                         <div class="card">
+                             <div class="card__img-wrapper">
+                                 <img class="card__img" src="img/webサイト作成.jpg" alt="webサイト作成img">
+                             </div>
+                            <div class="card__body">
+                                <div class="card__title">Webサイト制作</div>
+                                <div class="card__text">
+                                    <p>新規サイトの製作はもちろんサイトリニューアルやランディングページの製作の可能です。</p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="card">
+                         <div class="card__img-wrapper">
+                             <img class="card__img" src="img/webサイト運用.jpg" alt="webサイト製作サイトimg">
+                         </div>
+                            <div class="card__body">
+                              <div class="card-title">Webサイト運用</div>
+                         <div class="card__text">
+                             <p>サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案を致します。</p>
+                        </div>
+                    </div> 
+               </div>
+                <div class="card">
+                        <div class="card__img-wrapper">
+                         <img class="card__img" src="img/アプリ開発.jpg" alt="アプリ開発img">
+                        </div>
+                        <div class="card__body">
+                            <div class="card__title">アプリ開発</div>
+                            <div class="card__text">
+                                <p>スマートフォンアプリの開発の他、Vue.jsやReactによるWebアプリの開発が可能です。</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        <div class="service__link">
+                <a href="service" class="btn">
+                    "more"
+                    ::after
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="works l-section">
+        <div class="l-inner l-inner--x1">
+            <div class="works__img-wrapper">
+                <div class="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+                  <div class="swiper-wrapper" style="transition-duration: 500ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 750px; transition-duration: 500ms; opacity: 1; transform: translate3d(0px, 0px, 0px);"> 
+                    <img src="img/fashion.jpg" alt="">
+                </div>
+                    <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 750px; transition-duration: 500ms; opacity: 1; transform: translate3d(-750px, 0px, 0px);"> 
+                        <img src="img/smoothiesta.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 750px; transition-duration: 500ms; opacity: 1; transform: translate3d(-1500px, 0px, 0px);"> 
+                        <img src="img/conference.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 750px; transition-duration: 500ms; opacity: 0; transform: translate3d(-2250px, 0px, 0px);">
+                         <img src="img/fashion.jpg" alt="">
+                        </div>
+                  <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 750px; transition-duration: 500ms; opacity: 0; transform: translate3d(-3000px, 0px, 0px);"> 
+                    <img src="img/smoothiesta.jpg" alt="">
+                </div>
+            </div>
+                  <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                      <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1">
+
+                      </span>
+                      <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                      <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                    </div>
+                  <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide">
+                    </div>
+                  <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide">
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </div>
+        <div class="works__contens">
+            <div class="works__heading">
+                <h2 class="heading-primary">
+                    "works"
+                    <span class="heading-primary__sub">製作実績</span>
+                </h2>
+            </div>
+            <div class="works__body">
+                <div class="works__text">
+                    <p>
+                        "様々なジャンルのWebサイト製作が可能です。"
+                        <br>
+                        "
+                        ご購入や申込み数の増加などを実現します！"
+                    </p>
+                </div>
+            </div>
+        <div class="works__link">
+                <a href="works.html" class="btn">
+                    "more"
+                     ::after
+                </a>
+            </div>
+         </div>
+          ::after
+        </div>
+    </section>    
+    <section class="company l-section">
+        <div class="l-inner">
+            <div class="company__heading">
+                <h2 class="heading-primary">
+                    "company"
+                    <span xlass="heading-primary__sub">私たちについて</span>
+                </h2>
+            </div>
+        <div class="company__body">
+                 <div class="message">
+                     <div class="message__heading">
+                         <span class="message__underline">
+                             "サイトのゴール="
+                             <br class="u-sp-only">
+                             "夢を叶えること"
+                         </span>
+                    </div>
+                 <div class="message__text">
+                        <p>
+                          "お客様の夢を叶えること。"
+                          <br>
+                        "
+                              それがWebサイトのゴールであり、"
+                           <br class="u-sp-only">
+                            "私たちが目指すことです。"
+                            <br>
+                            "
+                                 だからこそちゃんと成長を出すサイトを"
+                            <br class="u-sp-only">
+                            "全力でお作りします。"
+                            <br>
+                            "
+                               お客様の手助けをさせてください。"
+                        </p>
+                 </div>
+                </div>
+        </div>
+        <div class="company__link">
+                <a href="company.html" class="btn">
+                    "more"
+                    ::after
+                </a>
+            </div>    
+        </div>
+    </section>
+    <section class="recruit l-section">
+        <div class="l-inner">
+            <div class="recruit__contents">
+                <div class="recruit__heading">
+                    <h2 class="heading-primary">
+                        "recruit"
+                        <span class="heading-primary">採用情報</span>
+                    </h2>
+                </div>
+                <div class="recruit__body">
+                    <div class="recruit__text">
+                        <p>私たちと一緒に働きませんか？</p>
+                    </div>
+                </div>
+            <div class="recrui__btn">
+                    <a href="recruit.html" class="btn">
+                        "more"
+                        ::after
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="recruit__img-wrapper">
+            <img class="recruit__img" src="img/recruit.jpg" alt>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="l-inner">
+        <div class="contact__heading">
+            <h2 class="heading-primary">
+                "
+                           contact"
+                <span class="heading-primary__sub">お問い合わせ</span>
+            </h2>
+        </div>
+        <div class="contact__body">
+            <div class="contact__text">
+                <p>
+                    "Webサイトの製作のご依頼やお見積りなど、"
+                    <br class="u-sp-only">
+                    "お気軽にご相談ください。"
+                </p>
+            </div>
+        </div>
+        <div class="contact__link">
+            <a href="contact.html" class="btn">
+                "more"
+                ::after
+            </a>
+        </div>
+    </div>
+</section>
+</div>
+<footer class="footer">
+    <nav class="footer-nav">
+      <ul class="footer-nav__list">
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href=".">HOME</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href="news.html">news</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href="service.html">service</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href="works.html">works</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href="company.html">company</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href="recruit.html">recruit</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link" href="contact.html">contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright">
+      <a href="." class="copyright__link">©PON DESIGN</a>
+    </div>
+</footer>
+<div class="page-top" style="display: block">
+    <a href="#" class="page-top__link"></a>
+</div>
+</div>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
