@@ -113,7 +113,7 @@ h1 {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-image: url(/img/hero.jpg);
+    background-image: url(img/hero.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -131,9 +131,14 @@ h1 {
     font-size: 4.5rem;
 }
 
-.hero_subtitle {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero__subtitle {
     margin-top: 20px;
-    letter-spacing: 1em;
+    letter-spacing: .1em;
     font-size: 1.5rem;
 }
 
@@ -144,6 +149,13 @@ h1 {
 .hero_link {
     margin-top: 50px;
 }
+
+body{
+    font-family: "Montserrat",Arial,
+       "Hiragino Kaku Gothic ProN","Hiragino Sans"
+       ,Meiryo,sans-serif;
+}
+
 
 .btn--transparent {
     border: 1px solid #fff;
