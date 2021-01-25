@@ -7,7 +7,8 @@
     width: 100%;
     padding: 30px;
     transition: all .3s;
-    background-color: #21054D
+    background-color: #21054D;
+    height: 65px;
 }
 
 .header .active {
