@@ -15,7 +15,7 @@
 <!-- リセットcssの読み込み -->
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <!-- ▼style.cssの読み込みの記述を書く -->
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="style.css">
 <body>
   <!-- ▼ここからマークアップを行う -->
   <div class="wrapper">
@@ -150,7 +150,7 @@
                      </h2>
                  </div>
                  <div class="service__body">
-                     <div class="card-wrapper card-wrapper--col13">
+                     <div class="card-wrapper card-wrapper--col3">
                          <div class="card">
                              <div class="card__img-wrapper">
                                  <img class="card__img" src="img/webサイト作成.jpg" alt="webサイト作成img">
@@ -167,7 +167,7 @@
                              <img class="card__img" src="img/webサイト運用.jpg" alt="webサイト製作サイトimg">
                          </div>
                             <div class="card__body">
-                              <div class="card-title">Webサイト運用</div>
+                              <div class="card__title">Webサイト運用</div>
                          <div class="card__text">
                              <p>サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案を致します。</p>
                         </div>
@@ -187,7 +187,7 @@
                  </div>
             </div>
         <div class="service__link">
-                <a href="service" class="btn">
+                <a href="service.html" class="btn-more">
                     more
                 
                 </a>
@@ -222,7 +222,7 @@
                     <div class="swiper-button-next">     
                     </div>
                 </div>
-            <div class="works__contens">
+            <div class="works__contents">
                 <div class="works__heading">
                 <h2 class="heading-primary">
                     works
@@ -239,8 +239,9 @@
                 </div>
             </div>
             <div class="works__link">
-                <a href="works.html" class="btn">
+                <a href="works.html" class="btn-more">
                     more
+                    
                 </a>
             </div>
             </div>
@@ -284,7 +285,7 @@
                 </div>
         </div>
         <div class="company__link">
-                <a href="company.html" class="btn">
+                <a href="company.html" class="btn-more">
                     more
                 </a>
             </div>    
@@ -293,10 +294,11 @@
     <section class="recruit l-section">
         <div class="l-inner">
             <div class="recruit__contents">
+                <div class="recruit__contents-inner">
                 <div class="recruit__heading">
                     <h2 class="heading-primary">
                         recruit
-                        <span class="heading-primary">採用情報</span>
+                        <span class="heading-primary__sub">採用情報</span>
                     </h2>
                 </div>
                 <div class="recruit__body">
@@ -304,8 +306,8 @@
                         <p>私たちと一緒に働きませんか？</p>
                     </div>
                 </div>
-            <div class="recrui__btn">
-                    <a href="recruit.html" class="btn">
+            <div class="recruit__btn">
+                    <a href="recruit.html" class="btn-more">
                         more
                     </a>
             </div>
@@ -335,7 +337,7 @@
             </div>
         </div>
         <div class="contact__link">
-            <a href="contact.html" class="btn">
+            <a href="contact.html" class="btn-more">
                 more
             
             </a>
@@ -374,7 +376,11 @@
     </div>
 </footer>
     <div class="page-top" style="display: block">
-        <a href="#" class="page-top__link"></a>
+        <a href="#" class="page-top__link">
+            <i class="fas fa-arrow-up" aria-hidden="true">
+
+            </i>
+        </a>
     </div>
 </body>
 </html>
