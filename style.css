@@ -341,12 +341,10 @@ a {
 
 .service__body {
     margin-bottom: 30px;
-    display: flex;
 }
 
 .card-wrapper {
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: -30px;
 }
 
@@ -362,6 +360,7 @@ a {
 .card__img-wrapper {
     margin-bottom: 15px;
 }
+
 
 .card__img {
     width: 100%;
@@ -396,7 +395,7 @@ p {
     margin-inline-end: 0px;
 }
 
-.service_link {
+.service__link {
     text-align: center;
 }
 
