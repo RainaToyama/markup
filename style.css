@@ -459,6 +459,7 @@ a.btn-more::after {
 }
 
 .works .l-inner {
+    display: flex;
     position: relative;
     align-items: center;
     padding: 60px 20px; 
