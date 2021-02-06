@@ -3,7 +3,10 @@
 *, {
     box-sizing: inherit;
     background-repeat: no-repeat;
-}   
+}  
+* {
+    margin: 0;
+} 
 
 .header {
     position: fixed;
@@ -12,10 +15,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 30px;
     transition: all .3s;
-    background-color: #21054D;
-    height: 65px;
+    padding: 30px;
 }
 
 .header .active {
@@ -163,7 +164,6 @@ element.style {
 
 *{
     margin: 0;
-    padding: 0;
 }
 
 .hero__subtitle {
@@ -179,6 +179,23 @@ element.style {
 .hero_link {
     margin-top: 50px;
 }
+
+.hero__scroll {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    line-height: inline-block;
+    overflow: hidden;
+    padding: 10px 10px 90px;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.75rem;
+    writing-mode: vertical-lr;
+}
+
+
 
 body{
     font-family: "Montserrat",Arial,
@@ -443,7 +460,6 @@ a.btn-more::after {
 
 .works .l-inner {
     position: relative;
-    display: flex;
     align-items: center;
     padding: 60px 20px; 
 }
@@ -504,8 +520,9 @@ a.btn-more::after {
     text-align: center;
 }
 
-.works_heading {
+.works__heading {
     margin-bottom: 30px;
+    display: flex;
 }
 
 .heading-primary {
@@ -733,7 +750,8 @@ a.btn-more::after {
 
 .fas {
     font-weight: 900;
-    font-family: "#Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free";
+    
 }
 
 .fa-arrow-up:before {

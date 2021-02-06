@@ -1,0 +1,5 @@
+
+.swiper-container-fade .swiper-slide {
+    pointer-events: none;
+    transition-property: opacity; 
+}
